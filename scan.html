@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RFID Scanner</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <h1>📡 RFID Scanner</h1>
+    <p>Scan your card to proceed.</p>
+    <button onclick="redirectToHome()">Scan Now</button>
+    <button class="btn" onclick="window.location.href='index.html'">⬅ Back to Dashboard</button>
+    <script>
+        function scanCard() {
+            alert("Card Scanned Successfully!");
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
